@@ -3,6 +3,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 /* eslint-disable */
 
 @Component({
+  standalone: true,
   selector: 'budget-management-nx-welcome',
   template: `
     <!--
