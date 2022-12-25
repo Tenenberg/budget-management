@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { TransactionListComponent } from './transaction-list/transaction-list.component';
 
 @Component({
   standalone: true,
@@ -7,7 +7,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   providers: [],
-  imports: [NxWelcomeComponent],
+  imports: [TransactionListComponent],
 })
 export class AppComponent {
   title = 'budget-management';
